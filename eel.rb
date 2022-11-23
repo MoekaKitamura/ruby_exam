@@ -5,7 +5,6 @@ empty_seat = [*1..(seats_and_groups[0].to_i)]
 #（C）（１３）座席の数を変数に入れておきます 空席数（元々の椅子の数）
 seats_count = empty_seat.count
 #（D）（１１）何組のグループが入店するのか、その数を変数に入れておきます グループ数(取得した数の２番目)
-binding.irb
 number_of_visitors = seats_and_groups[1].to_i
 #（E）（１５）入店するグループの数だけループさせます [1〜グループ数]の配列分繰り返す(何行かが決まる)
 [*1..number_of_visitors].each do
